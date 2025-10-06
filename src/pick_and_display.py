@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
 the main functionality of this script is to pick a random 3D image from an h5 file
-and display it in 3D slicer. If the randomly picked image is a segmentation script
-display the image using "view_seg.py" and if its a CT image (preprocessed but not masked)
+and display it in 3D slicer. If the randomly picked image is a segmentation, script
+display the image using "view_seg.py" and if its a CT image (preprocessed but not masked),
 script display that image via "view_img.py"
 
 Run:
