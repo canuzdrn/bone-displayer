@@ -16,6 +16,7 @@ This project lets you **preview tibia CT volumes and segmentation masks** stored
 - `view_seg.py` — View a **segmentation NIfTI** in Slicer (2D label overlay + 3D surface)
 - `pick_and_display.py` — **Main entry**: open `.h5`, skip metadata, randomly pick **CT or mask**, write **temp** `.nii.gz`, launch Slicer with the right viewer, then delete temps
 - `h5_convert.py` — (Optional) Convert datasets from `.h5` → **NIfTI** on disk
+- `blender.py` — Given segmentation image, it saves the mesh of the surface as a temp file and display the mesh in Blender.
 
 ---
 
